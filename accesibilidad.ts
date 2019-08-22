@@ -13,11 +13,11 @@ class Shape {
     }
 }
  
-var square = new Shape("cuadrado", 30, 30);
+var cuadrado = new Shape("cuadrado", 30, 30);
  
-console.log( square.shoutout() );
-console.log( 'Area de figura: ' + square.area );
-console.log( 'Name de figura: ' + square.name );
-console.log( 'Color de figura: ' + square.color );
-console.log( 'Ancho de figura: ' + square.width );
-console.log( 'Alto de figura: ' + square.height );
+console.log( cuadrado.shoutout() );
+console.log( 'Area de figura: ' + cuadrado.area );
+console.log( 'Name de figura: ' + cuadrado.name );
+console.log( 'Color de figura: ' + cuadrado.color );
+console.log( 'Ancho de figura: ' + cuadrado.width );
+console.log( 'Alto de figura: ' + cuadrado.height );
